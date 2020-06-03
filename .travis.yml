@@ -2,6 +2,9 @@ branches:
   only:
     - master
     - production
+arch:
+    - amd64
+    - arm64
 language: minimal
 services:
   - docker
